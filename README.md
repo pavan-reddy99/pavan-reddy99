@@ -79,25 +79,6 @@ A cloud-native AWS pipeline that ingests, transforms, and loads payment transact
 
 ---
 
-## 💼 Work Experience
-
-**Data Analyst @ Citizens Bank** *(03/2025 – Present · Saint Louis, MO)*
-- Built Python/AWS Glue ETL pipelines, cutting compliance prep effort by ~60% per cycle
-- Architected SQL validation framework blocking data defects before compliance reports
-- Integrated Python risk scoring model reducing manual account review volume by ~40%
-- Designed Power BI dashboard unifying 5+ compliance KPIs, replacing 3 spreadsheet systems
-
-**Data Analyst @ Tata Consultancy Services** *(11/2021 – 07/2023 · Hyderabad, India)*
-- Automated daily banking transaction ingestion via Apache Airflow + Python
-- Built SQL reporting layer unifying 6 upstream source systems, resolving cross-team discrepancies
-- Led data preparation for 5 regulatory reporting cycles, meeting every deadline without exception
-
-**Data Analyst @ Care Hospitals** *(06/2020 – 10/2021 · Hyderabad, India)*
-- Built HIPAA-compliant Power BI dashboards tracking patient volume & bed occupancy across 4 departments
-- Wrote 50+ SQL queries reducing management reporting errors by 30%
-
----
-
 ## 🛠️ Tech Stack
 
 **Languages & Analytics**
