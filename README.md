@@ -19,7 +19,6 @@
   "location":    "Saint Louis, MO",
   "experience":  "4+ years in data analytics & pipeline engineering",
   "education":   "MS Applied Computer Science — SEMO, May 2025",
-  "currently":   "Data Analyst @ Citizens Bank",
   "focus_areas": ["ETL Pipelines", "Regulatory Compliance", "ML Risk Scoring", "BI Dashboards"],
   "tools": {
     "cloud":         ["AWS S3", "Redshift", "Glue", "Snowflake"],
