@@ -3,7 +3,7 @@
 
 # 👋 Hi, I'm Pavan Reddy
 
-### Data Analyst · ETL & ML Pipeline Engineer
+### Data Engineer | ETL Pipelines · Snowflake · AWS Glue · PySpark | Basel III & HIPAA Compliance | Fraud Detection · ML Risk Scoring | Power BI |
 
 [![Email](https://img.shields.io/badge/Email-pavanhere99%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=white&labelColor=EA4335)](mailto:pavanhere99@gmail.com)
 [![Location](https://img.shields.io/badge/📍-Saint%20Louis%2C%20MO-0d1117?style=flat-square)](https://www.google.com/maps/place/Saint+Louis,+MO)
@@ -17,7 +17,7 @@
 ```json
 {
   "location":    "Saint Louis, MO",
-  "experience":  "4+ years in data analytics & pipeline engineering",
+  "experience":  "4+ years in data engineer & pipeline engineering",
   "education":   "MS Applied Computer Science — SEMO, May 2025",
   "focus_areas": ["ETL Pipelines", "Regulatory Compliance", "ML Risk Scoring", "BI Dashboards"],
   "tools": {
