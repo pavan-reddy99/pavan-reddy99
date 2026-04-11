@@ -3,12 +3,12 @@
 
 # 👋 Hi, I'm Pavan Reddy
 
-### Data Engineer | ETL Pipelines · Snowflake · AWS Glue · PySpark | Basel III & HIPAA Compliance | Fraud Detection · ML Risk Scoring | Power BI |
+### Data Engineer | ETL Pipelines · Snowflake · AWS Glue · PySpark · dbt | Basel III · DFAST · BSA/AML · HIPAA Compliance | Fraud Detection · ML Risk Scoring | Power BI · Tableau
 
 [![Email](https://img.shields.io/badge/Email-pavanhere99%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=white&labelColor=EA4335)](mailto:pavanhere99@gmail.com)
-[![Location](https://img.shields.io/badge/📍-Saint%20Louis%2C%20MO-0d1117?style=flat-square)](https://www.google.com/maps/place/Saint+Louis,+MO)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=flat-square&logo=linkedin&logoColor=white&labelColor=0A66C2)](https://linkedin.com)
-[![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Work-0d1117?style=flat-square&logo=checkmarx&logoColor=white&labelColor=22c55e)](mailto:pavanhere99@gmail.com)
+[![Location](https://img.shields.io/badge/📍_Saint%20Louis%2C%20MO-0d1117?style=flat-square)](https://www.google.com/maps/place/Saint+Louis,+MO)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=flat-square&logo=linkedin&logoColor=white&labelColor=0A66C2)](https://www.linkedin.com/in/pavan-reddy-de)
+[![Open_to_Work](https://img.shields.io/badge/Status-Open%20to%20Work-0d1117?style=flat-square&logo=checkmarx&logoColor=white&labelColor=22c55e)](mailto:pavanhere99@gmail.com)
 
 </div>
 
@@ -17,13 +17,19 @@
 ```json
 {
   "location":    "Saint Louis, MO",
-  "experience":  "4+ years in data engineer & pipeline engineering",
+  "experience":  "4+ years in data engineering & pipeline development",
   "education":   "MS Applied Computer Science — SEMO, May 2025",
-  "focus_areas": ["ETL Pipelines", "Regulatory Compliance", "ML Risk Scoring", "BI Dashboards"],
+  "focus_areas": ["ETL Pipelines", "Regulatory Compliance", "ML Risk Scoring", "Cloud Migration"],
   "tools": {
-    "cloud":         ["AWS S3", "Redshift", "Glue", "Snowflake"],
-    "orchestration": ["Apache Airflow", "Control-M"],
-    "viz":           ["Power BI (DAX, RLS)", "Tableau"]
+    "languages":  ["Python", "SQL", "PySpark", "Pandas", "NumPy", "HQL", "DAX"],
+    "etl":        ["Apache Airflow", "AWS Glue", "dbt (data build tool)", "Informatica IICS", "Control-M"],
+    "cloud":      ["AWS S3", "AWS EC2", "AWS Lambda", "Amazon Redshift", "Snowflake", "Databricks"],
+    "modeling":   ["Star Schema", "Snowflake Schema", "Data Lineage", "Data Quality", "Audit-Trail Logging", "Data Cataloging"],
+    "viz":        ["Power BI (DAX, Power Query, RLS)", "Tableau"],
+    "ml":         ["Scikit-learn", "Gradient Boosting", "Isolation Forest", "Feature Engineering"],
+    "monitoring": ["Splunk", "Control-M"],
+    "devops":     ["Git", "GitHub", "CI/CD Pipelines", "Agile/Scrum"],
+    "domain":     ["Basel III", "DFAST", "BSA/AML", "Liquidity Reporting", "PHI/HIPAA", "Fraud Detection"]
   }
 }
 ```
@@ -34,92 +40,66 @@
 
 | 🏆 Metric | 📈 Result |
 |---|---|
-| Manual review volume reduced | **~40%** via Python risk scoring model |
-| Compliance prep effort cut | **~60%** per regulatory cycle |
-| Source systems unified | **6** into one consistent SQL reporting layer |
-| Regulatory cycles led | **5** without missing a single deadline |
-| Reporting errors reduced | **30%** across 4 hospital departments |
+| Manual review volume reduced | ~40% via Python/Scikit-learn fraud scoring model |
+| Compliance prep effort cut | ~60% per regulatory cycle (DFAST, BSA/AML) |
+| Regulatory cycles delivered | 5 Basel III cycles — 100% on-time, zero penalties |
+| Consecutive compliance audits | 5 with zero findings |
+| Source systems unified | 6 into one SQL reporting layer (core ledger, loan, trade, treasury) |
+| Cloud migration | Legacy on-prem → Snowflake + Redshift via dbt models |
+| MTTD improvement | 24+ hours → under 2 hours via Splunk + Control-M |
+| Reporting errors reduced | 30% across 4 hospital departments |
 
 ---
 
 ## 📌 Independent Projects
 
 ### 🔍 Fraud Detection & Risk Analytics System
-> `PySpark` · `Scikit-learn` · `Python` · `Power BI` · `XGBoost` · `Feature Engineering`
+**PySpark · Scikit-learn · Python · Power BI · XGBoost · Gradient Boosting · Isolation Forest · Feature Engineering**
 
-An end-to-end ML classification pipeline that detects fraudulent transactions from engineered behavioral and transactional features — surfacing ranked risk scores in a Power BI dashboard with daily account-level review queues.
+End-to-end ML pipeline detecting fraudulent transactions from engineered behavioral features — surfacing ranked risk scores in a Power BI dashboard with daily account-level review queues.
 
-- Engineered behavioral + transactional features using **PySpark** for large-scale preprocessing across transaction datasets
-- Trained and evaluated multiple **Scikit-learn** classifiers (Random Forest, XGBoost, Logistic Regression) with precision-recall trade-off analysis to select the optimal model
-- Built a ranked risk scoring output feeding a **Power BI dashboard** with daily account-level review queues, replacing manual triage with an automated priority system
-- Implemented evaluation pipelines including confusion matrices, ROC-AUC curves, and threshold tuning to balance fraud catch rate vs. false positive rate
-
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-
----
+- Engineered 20+ features in PySpark: 7-day/30-day velocity windows, merchant ratios, time-of-day flags
+- Trained Scikit-learn classifiers (Gradient Boosting, Random Forest, Logistic Regression) with precision-recall threshold tuning
+- Achieved **87% precision** on held-out test set; daily priority queue replaced all manual triage
+- Built evaluation pipeline: confusion matrices, ROC-AUC curves, threshold optimization for false-positive control
 
 ### 🏗️ FinTech Transaction Data Platform
-> `AWS S3` · `PySpark` · `Snowflake` · `Python` · `SQL` · `Medallion Architecture`
+**AWS S3 · PySpark · Snowflake · Python · SQL · dbt · Medallion Architecture · Data Lineage · CI/CD**
 
-A cloud-native AWS pipeline that ingests, transforms, and loads payment transaction data into a structured analytical model on Snowflake — with multi-stage reconciliation logic that auto-flags discrepancies before they reach the reporting layer.
+Cloud-native AWS pipeline ingesting 2M+ payment transactions/day into Snowflake with multi-stage reconciliation, full audit trail, and dbt-managed transformation layers.
 
-- Architected ingestion from **AWS S3** through **PySpark** transformations into a Snowflake analytical data model optimized for financial reporting
-- Built **multi-stage reconciliation logic** cross-validating transaction totals at each pipeline stage and auto-flagging discrepancies before data reaches downstream consumers
-- Designed staging → transformation → reporting schemas in **Snowflake** following medallion architecture (bronze → silver → gold) with full lineage tracking
-- Implemented pipeline monitoring and alerting to surface data quality failures early, preventing silent errors from propagating to analytics
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+- Architected medallion pipeline (Bronze → Silver → Gold): S3 → PySpark → Snowflake analytical model
+- Built multi-stage reconciliation cross-validating row counts and totals at source, transform, and load
+- Implemented data lineage tracking and audit-trail logging at every transformation stage
+- Designed star/snowflake schema in Snowflake optimized for financial reporting with CI/CD deployment
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Full Tech Stack
 
-**Languages & Analytics**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-
-**Cloud & Warehouses**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![Amazon Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white)
-
-**ETL & Orchestration**
-
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![AWS Glue](https://img.shields.io/badge/AWS%20Glue-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-
-**Visualization**
-
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-
-**Monitoring**
-
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+| Category | Technologies |
+|---|---|
+| **Languages** | Python · SQL · PySpark · Pandas · NumPy · HQL · DAX |
+| **ETL & Orchestration** | Apache Airflow · AWS Glue · **dbt** · Informatica IICS · Control-M |
+| **Cloud & Warehouses** | AWS (S3 · EC2 · Glue · Lambda) · Snowflake · Amazon Redshift · **Databricks** |
+| **Data Modeling** | Star Schema · Snowflake Schema · Data Lineage · Data Cataloging · Metadata Management |
+| **Visualization** | Power BI (DAX · Power Query · RLS) · Tableau · Advanced Excel |
+| **ML & Analytics** | Scikit-learn · Gradient Boosting · **Isolation Forest** · Feature Engineering |
+| **Monitoring & DevOps** | **Splunk** · Control-M · Git · GitHub · CI/CD Pipelines · Agile/Scrum |
+| **Domain Expertise** | Basel III · **DFAST** · **BSA/AML** · Liquidity Reporting · PHI/HIPAA · Fraud Detection |
 
 ---
 
 ## 🎓 Education
 
-**Master of Science, Applied Computer Science**
-Southeast Missouri State University · Cape Girardeau, MO · *May 2025*
+**Master of Science, Applied Computer Science**  
+Southeast Missouri State University · Cape Girardeau, MO · May 2025
 
 ---
 
 <div align="center">
 
-*📬 Open to data analyst, data engineering, and analytics engineering roles*
-**pavanhere99@gmail.com · +1 (314) 328-4845**
+📬 **Open to Data Engineer and Analytics Engineer roles in the U.S.**  
+[pavanhere99@gmail.com](mailto:pavanhere99@gmail.com) · +1 (314) 328-4845 · [linkedin.com/in/pavan-reddy-de](https://www.linkedin.com/in/pavan-reddy-de)
 
 </div>
